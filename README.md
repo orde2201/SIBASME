@@ -3,7 +3,7 @@ simple bash software manager with gum
 you can make your own software manager or shortcut
 
 ## SIBASME TUI :
-
+![TUI MAIN MENU SIBASME](/assets/SIBASME%20TUI.png)
 
 ## HOW TO RUN :
 
