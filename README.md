@@ -59,4 +59,8 @@ mediaChoose=("Music Player" "VLC")
 mediaOpen=("ncmpcpp" "vlc")
 ```
 
+#### social media
+📸 Instagram: [@yoga_pepsodent](https://www.instagram.com/yoga_pepsodent)
+
+
 
