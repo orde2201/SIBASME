@@ -52,5 +52,11 @@ add this inside MAIN_CHOICE case
       ;;
 ```
 ### how to add new shortcut inside category
+just add new item in choose and open array
+example : 
+```
+mediaChoose=("Music Player" "VLC")
+mediaOpen=("ncmpcpp" "vlc")
+```
 
 
