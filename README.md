@@ -21,7 +21,36 @@ source .bashrc
 ```
 
 ## HOW TO ADD SHORTCUT : 
-### how to add new shortcut inside category
 ### how to add new category
+1. open soft.sh file
+2. add variableChoose=("name")
+example :
+```
+SocialmediaChoose=("Reddit" "Whatsapp")
+```
+3. add the action variableOpen=("name) 
+```
+socialmediaOpen=(
+  "firefox https://www.reddit.com"
+  "firefox https://web.whatsapp.com"
+)
+```
+
+4. make the function using format below
+add this inside MAIN_CHOICE case
+```
+    "Social Media(you can change this)")
+      SUB_CHOICE=$(gum choose "${socialmediaChoose[@]}" "Back")
+      [[ "$SUB_CHOICE" == "Back" ]] && continue
+
+      for i in "${!socialmediaChoose(u can change this too[@]}"; do
+        if [[ "$SUB_CHOICE" == "${socialmediaChoose(u can change it too)[$i]}" ]]; then
+          eval "${socialmediaOpen[$i]}" &
+          break
+        fi
+      done
+      ;;
+```
+### how to add new shortcut inside category
 
 
