@@ -6,7 +6,9 @@ you can make your own software manager or shortcut
 ![TUI MAIN MENU SIBASME](/assets/SIBASME%20TUI.png)
 
 ## HOW TO RUN :
-
+'''
+bash soft.sh
+'''
 ## HOW TO RUN IN ANY TERMINAL :
 
 
